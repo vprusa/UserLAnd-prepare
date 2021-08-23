@@ -57,10 +57,13 @@ function install(){
   ex "${I_CMD} vim"
   ex "${I_CMD} screen"
   ex "${I_CMD} ssh"
+  ex "${I_CMD} openssh"
   ex "${I_CMD} git"
   ex "${I_CMD} libpam-google-authenticator"
   ex "${I_CMD} google-authenticator"
   ex "${I_CMD} oathtool"
+  ex "${I_CMD} nmap"
+  ex "${I_CMD} dnsutils"
 }
 
 function prepare(){
